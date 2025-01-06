@@ -7,7 +7,7 @@ the open source
 
 CANbardo is licensed under the [CERN-OHL-P-2.0 license](LICENSE).
 
-![CANbardo 3D-view](Documents/3D_view.png)
+![CANbardo](Documents/CANbardo.jpg)
 
 ## Hardware Features
 
@@ -39,3 +39,4 @@ The following design documentation is available:
 - [3D model](Documents/CANbardo.step)
 - [KiCad files](Kicad_8_files)
 - [Fabrication files](Fabrication_files)
+- [3D view](Documents/3D_view.png)
