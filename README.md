@@ -30,6 +30,13 @@ The CANbardo board provides the following features:
 - Device Firmware Upgrade (DFU) push button
 - Serial Wire Debug (SWD) and UART (3V3) available on header
 
+## Firmware Support
+
+The CANbardo board is supported by the following firmware:
+
+- [Zephyr RTOS](https://docs.zephyrproject.org/latest/boards/others/canbardo/doc/index.html)
+- [CANnectivity](https://github.com/CANnectivity/cannectivity)
+
 ## Design Documentation
 
 The following design documentation is available:
