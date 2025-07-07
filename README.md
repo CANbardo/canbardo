@@ -37,6 +37,14 @@ The CANbardo board is supported by the following firmware:
 - [Zephyr RTOS](https://docs.zephyrproject.org/latest/boards/others/canbardo/doc/index.html)
 - [CANnectivity](https://github.com/CANnectivity/cannectivity)
 
+## Enclosure
+
+An [OpenSCAD](https://openscad.org) model for an acyllic enclosure is
+available under the [Enclosure](Enclosure) folder. This model is
+designed to laser cut in 2 mm clear acrylic plates and fitted to the
+CANbardo board using eight M3x6 BH insex screws and four M3x8 threaded
+standoffs.
+
 ## Design Documentation
 
 The following design documentation is available:
@@ -47,3 +55,4 @@ The following design documentation is available:
 - [KiCad files](Kicad_8_files)
 - [Fabrication files](Fabrication_files)
 - [3D view](Documents/3D_view.png)
+- [Enclosure](Enclosure)
