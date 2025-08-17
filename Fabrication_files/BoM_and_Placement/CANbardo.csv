@@ -1,31 +1,33 @@
-Comment,Designator,Footprint,LCSC
-"100n","C1,C4,C7,C8,C9,C11,C13,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C28,C29,C31,C32,C33","Capacitor_SMD:C_0603_1608Metric",""
-"47n","C10,C27","Capacitor_SMD:C_0603_1608Metric",""
-"4.7u","C15,C16","Capacitor_SMD:C_0805_2012Metric",""
-"1u","C2,C3,C5,C30","Capacitor_SMD:C_0805_2012Metric",""
-"10p","C6,C12,C14","Capacitor_SMD:C_0603_1608Metric",""
-"LED 0603 Green","D1,D2,D5","LED_SMD:LED_0603_1608Metric",""
-"PRTR5V0U2X","D11","Package_TO_SOT_SMD:SOT-143",""
-"LED 0603 Yellow","D3,D6,D10","LED_SMD:LED_0603_1608Metric",""
-"LED 0603 Red","D4,D7","LED_SMD:LED_0603_1608Metric",""
-"NUP2105L","D8,D9","Package_TO_SOT_SMD:SOT-23",""
-"120@100MHz","FB1","Inductor_SMD:L_0603_1608Metric",""
-"blm18pg471sn1","FB2,FB3,FB4,FB5","Inductor_SMD:L_0603_1608Metric",""
-"USB_C_Receptacle_USB2.0","J1","Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",""
-"DE9_Plug_MountingHoles","J3,J4","Custom_Library:CONN9_5747840-4_TEC",""
-"Conn_01x08_Pin","J5","Custom_Library:PinHeader_1x08_P2.54mm_Vertical_zigzag",""
-"2N7002","Q1,Q2","Package_TO_SOT_SMD:SOT-23",""
-"4.7k","R1,R9,R15,R18","Resistor_SMD:R_0603_1608Metric",""
-"47k","R2,R6,R7,R10","Resistor_SMD:R_0603_1608Metric",""
-"120R","R20,R22,R23,R24,R25,R26,R27,R28","Resistor_SMD:R_0603_1608Metric",""
-"5.1k","R3,R4","Resistor_SMD:R_0603_1608Metric",""
-"5.62k","R30","Resistor_SMD:R_0603_1608Metric",""
-"2.2R","R31","Resistor_SMD:R_0603_1608Metric",""
-"200R","R5,R11,R12,R13,R14,R16,R19,R32","Resistor_SMD:R_0603_1608Metric",""
-"1k","R8,R17,R21,R29","Resistor_SMD:R_0603_1608Metric",""
-"FSM4JSMAATR.","SW1","Custom_Library:SW_SMD_Tactile_4pin",""
-"AC37S","U1,U4","Custom_Library:SOP-8GW_4.4x9.4mm_P2.54mm",""
-"ATSAME70N20B-AN","U13","Package_QFP:LQFP-100_14x14mm_P0.5mm",""
-"MCP2558FD-xSN","U2,U7","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""
-"AP2112K-3.3","U5","Package_TO_SOT_SMD:SOT-23-5",""
-"LFXTAL054208RL3K","Y1","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering",""
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C12,C14,C6";"C_0603_1608Metric";3;"10p";;;
+2;"J1";"USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal";1;"USB_C_Receptacle_USB2.0";;;
+3;"J5";"PinHeader_1x08_P2.54mm_Vertical_zigzag";1;"Conn_01x08_Pin";;;
+4;"R5,R11,R12";"R_0603_1608Metric";3;"2.7k";;;
+5;"R13,R16,R32";"R_0603_1608Metric";3;"390R";;;
+6;"R14,R19";"R_0603_1608Metric";2;"620R";;;
+7;"R15,R1,R9,R18";"R_0603_1608Metric";4;"4.7k";;;
+8;"U1,U4";"SOP-8GW_4.4x9.4mm_P2.54mm";2;"AC37S";;;
+9;"C24,C33,C25,C18,C31,C7,C8,C22,C11,C23,C4,C20,C13,C17,C9,C21,C32,C26,C1,C19,C28,C29";"C_0603_1608Metric";22;"100n";;;
+10;"C5,C3,C2,C30";"C_0805_2012Metric";4;"1u";;;
+11;"R24,R22,R23,R20,R28,R26,R25,R27";"R_0603_1608Metric";8;"120R";;;
+12;"R2,R7,R6,R10";"R_0603_1608Metric";4;"47k";;;
+13;"FB4,FB5,FB3,FB2";"L_0603_1608Metric";4;"blm18pg471sn1";;;
+14;"C16,C15";"C_0805_2012Metric";2;"4.7u";;;
+15;"D3,D10,D6";"LED_0603_1608Metric";3;"LED 0603 Yellow";;;
+16;"R8,R17,R21,R29";"R_0603_1608Metric";4;"1k";;;
+17;"U5";"SOT-23-5";1;"AP2112K-3.3";;;
+18;"Q2,Q1";"SOT-23";2;"2N7002";;;
+19;"D1,D5,D2";"LED_0603_1608Metric";3;"LED 0603 Green";;;
+20;"D9,D8";"SOT-23";2;"NUP2105L";;;
+21;"C27,C10";"C_0603_1608Metric";2;"47n";;;
+22;"R3,R4";"R_0603_1608Metric";2;"5.1k";;;
+23;"J4,J3";"CONN9_5747840-4_TEC";2;"DE9_Plug_MountingHoles";;;
+24;"R30";"R_0603_1608Metric";1;"5.62k";;;
+25;"R31";"R_0603_1608Metric";1;"2.2R";;;
+26;"SW1";"SW_SMD_Tactile_4pin";1;"FSM4JSMAATR.";;;
+27;"FB1";"L_0603_1608Metric";1;"120@100MHz";;;
+28;"D4,D7";"LED_0603_1608Metric";2;"LED 0603 Red";;;
+29;"Y1";"Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering";1;"LFXTAL054208RL3K";;;
+30;"U2,U7";"SOIC-8_3.9x4.9mm_P1.27mm";2;"MCP2558FD-xSN";;;
+31;"U13";"LQFP-100_14x14mm_P0.5mm";1;"ATSAME70N20B-AN";;;
+32;"D11";"SOT-143";1;"PRTR5V0U2X";;;
